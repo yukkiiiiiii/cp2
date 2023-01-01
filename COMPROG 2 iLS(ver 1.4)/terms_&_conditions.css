@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(231, 229, 229);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;    
+}
+
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    margin-bottom: 90px;
+    background-image: url(img/pexels-gelgas-airlangga-401213.jpg);
+    background-repeat: no-repeat;
+}
+
+.banner{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    transform: translateX(-49%);
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition:all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #25aa04;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(40, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(35, 151, 0.8);
+}
+.text{
+    padding-bottom: 5%;
+    padding-left: 3%;
+}
+
+.text p{
+    letter-spacing: 2px;
+    padding: 3px;
+}
+
+.text h1{
+    color: #7abd23;
+    line-height: 4;
+}
+
+.text a{
+    color: #25aa04;
+}
+
+.text details{
+    padding: 5px;
+}
+
+.text details > p{
+    background-color: #dddddd;
+    box-shadow: 2px 2px 2px 0px grey;
+    display: flex;
+}
+
+footer{
+    text-align: left;
+    font-size: small;  
+}
+
+.contents {
+    padding-left: 10px;
+    background-image: url(img/pexels-gelgas-airlangga-401213.jpg);
+    background-position: bottom;
+    color: white;
+}
+
+.contents p{
+    padding: 3px;
+}
+
+.center {
+    text-align: center;
+}
+.center ul li{
+    transform: translateY(-150%);
+    margin: 10px;
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+.center p{
+    transform: translateY(-500%);
+}
+
+.extra{
+    background-color: #7abd23;
+    text-align: center;
+}
+.extra section, ul, li{
+    justify-content: space-between;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.extra section ul li a{
+    display: block;
+    text-align: center;
+    font-size: small;
+    transition: all 0.3s ease 0s;
+}
+
+.extra section ul li a:hover{
+    color: yellow;
+}
+
+.extra section p{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+@keyframes bar {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+@media(max-width:1050px){
+    .s-box-container{
+        flex-wrap: wrap;
+    }
+    .services{
+        height: auto;
+    }
+    .s-header{
+        margin: 15px;
+    }
+    .s-box{
+        flex-grow: 1;
+    }
+}
