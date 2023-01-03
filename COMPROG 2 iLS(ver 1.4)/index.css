@@ -189,7 +189,7 @@ footer{
 }
 
 .contents p{
-    padding: 3px;
+    padding: 10px;
 }
 
 .center {
@@ -204,7 +204,7 @@ footer{
     position: relative;
 }
 .center p{
-    transform: translateY(-500%);
+    transform: translateY(-345%);
 
 }
 
@@ -245,17 +245,47 @@ footer{
     }
 }
 
-@media(max-width:1050px){
+@media only screen and (max-width: 414px){
+    .banner{
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        transform: translateX(-20%);
+    }
+
+    .nav_links{
+        display: flex;
+        transform: translateX(-10%);
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 10%;
+        margin-bottom: 90px;
+        background-image: url(img/pexels-gelgas-airlangga-401213.jpg);
+        background-repeat: no-repeat;
+    }
+
     .s-box-container{
-        flex-wrap: wrap;
+        width: 100%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
     }
-    .services{
-        height: auto;
-    }
-    .s-header{
-        margin: 15px;
-    }
+
     .s-box{
-        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        width: 300px;
+        height: 400px;
+        padding: 20px 25px;
+        box-sizing: border-box;
+        margin: 30px;
+        position: relative;
+       
     }
 }

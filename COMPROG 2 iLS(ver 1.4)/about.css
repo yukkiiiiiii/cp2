@@ -168,9 +168,11 @@ footer{
     color: white;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 400px) {
 .column {
     width: 100%;
     display: block;
     }
+
+    
 }
