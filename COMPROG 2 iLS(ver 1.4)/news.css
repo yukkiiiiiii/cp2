@@ -55,66 +55,6 @@ button:hover{
     background-color: rgb(35, 151, 0.8);
 }
 
-footer{
-    text-align: left;
-    font-size: small;  
-}
-
-.contents {
-    padding-left: 10px;
-    background-image: url(img/pexels-gelgas-airlangga-401213.jpg);
-    background-position: bottom;
-    color: white;
-}
-
-.contents p{
-    padding: 3px;
-}
-
-.center {
-    text-align: center;
-}
-.center ul li{
-    transform: translateY(-150%);
-    margin: 10px;
-    justify-content: space-between;
-    display: inline-block;
-    align-items: center;
-    position: relative;
-}
-.center p{
-    transform: translateY(-500%);
-
-}
-
-.extra{
-    background-color: #7abd23;
-    text-align: center;
-}
-.extra section, ul, li{
-    justify-content: space-between;
-    display: inline-block;
-    padding-top: 5px;
-    padding-left: 5px;
-}
-
-.extra section ul li a{
-    display: block;
-    text-align: center;
-    font-size: small;
-    transition: all 0.3s ease 0s;
-}
-
-.extra section ul li a:hover{
-    color: yellow;
-}
-
-.extra section p{
-    text-align: center;
-    font-size: small;
-    color: white;
-}
-
 article, section, h1, p, hr{
     font-weight: 500;
     font-style: 16px;
@@ -188,7 +128,7 @@ article, section, h1, p, hr{
 .headlines .topheadlines .topNews {
     padding: 6px;
     height: 80%;
-    border: solid white 1.2px;
+    border: solid #25aa04 1.2px;
     border-radius: 5.6px;
     overflow-y: scroll;
 }
@@ -229,4 +169,66 @@ article, section, h1, p, hr{
 
 ::-webkit-scrollbar-thumb {
     background: #888; 
+}
+
+
+
+footer{
+    text-align: left;
+    font-size: small;  
+}
+
+.contents {
+    padding-left: 10px;
+    background-image: url(img/pexels-gelgas-airlangga-401213.jpg);
+    background-position: bottom;
+    color: white;
+}
+
+.contents p{
+    padding: 3px;
+}
+
+.center {
+    text-align: center;
+}
+.center ul li{
+    transform: translateY(-150%);
+    margin: 10px;
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+.center p{
+    transform: translateY(-500%);
+
+}
+
+.extra{
+    background-color: #7abd23;
+    text-align: center;
+}
+.extra section, ul, li{
+    justify-content: space-between;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.extra section ul li a{
+    display: block;
+    text-align: center;
+    font-size: small;
+    transition: all 0.3s ease 0s;
+}
+
+.extra section ul li a:hover{
+    color: yellow;
+}
+
+.extra section p{
+    text-align: center;
+    font-size: small;
+    color: white;
 }
