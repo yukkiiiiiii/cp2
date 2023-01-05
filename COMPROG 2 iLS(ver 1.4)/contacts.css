@@ -1,0 +1,121 @@
+/*below will be the code for the contacts wherein its is connected
+to a  <a>/link, when tapped it will transport you to the social media platform of the
+web dev or the company itself*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.row a {
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px; 
+}
+
+#hobbies {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: inline-block;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box ;
+    padding: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height:300px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius:15px;
+    background: linear-gradient(to top, rgb(17, 194, 26) 10%, white 50% );
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover{
+    font: caption;
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 1px rgb(17, 194, 26);
+}
+
+footer{
+    text-align: left;
+    font-size: small;  
+}
+
+.contents {
+    padding-left: 10px;
+    background-image: url(img/pexels-gelgas-airlangga-401213.jpg);
+    background-position: bottom;
+    color: white;
+}
+
+.contents p{
+    padding: 3px;
+}
+
+.center {
+    text-align: center;
+}
+.center ul li{
+    transform: translateY(-150%);
+    margin: 10px;
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+.center p{
+    transform: translateY(-500%);
+
+}
+
+.extra{
+    background-color: #7abd23;
+    text-align: center;
+}
+.extra section, ul, li{
+    justify-content: space-between;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.extra section ul li a{
+    display: block;
+    text-align: center;
+    font-size: small;
+    transition: all 0.3s ease 0s;
+}
+
+.extra section ul li a:hover{
+    color: yellow;
+}
+
+.extra section p{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+
+
