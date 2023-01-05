@@ -168,6 +168,8 @@ footer{
     color: white;
 }
 
+/* media screen is used to match the user's device screen*/
+
 @media screen and (max-width: 400px) {
 .column {
     width: 100%;
