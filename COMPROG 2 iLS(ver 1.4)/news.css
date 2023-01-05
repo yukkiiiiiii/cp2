@@ -55,21 +55,21 @@ button:hover{
     background-color: rgb(35, 151, 0.8);
 }
 
-article, section, h1, p, hr{
+article, section, h1, hr{
     font-weight: 500;
     font-style: 16px;
     color: #7abd23;
     text-indent: 0.5px;
 }
 
-.headlines {
+.headlines{
     width: 100%;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     padding: 90px 50px 45px;
 }
 
-.newstrees {
+.newstrees{
     padding-left: 35px;
 }
 
@@ -171,11 +171,10 @@ article, section, h1, p, hr{
     background: #888; 
 }
 
-
-
 footer{
     text-align: left;
     font-size: small;  
+    display: inline;
 }
 
 .contents {
