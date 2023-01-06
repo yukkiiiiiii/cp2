@@ -128,7 +128,7 @@ article, section, h1, hr{
 .headlines .topheadlines .topNews {
     padding: 6px;
     height: 80%;
-    border: solid #25aa04 1.2px;
+    border: solid #7abd23 1.2px;
     border-radius: 5.6px;
     overflow-y: scroll;
 }
@@ -173,4 +173,39 @@ article, section, h1, hr{
 
 /*Additional*/
 
+.newstitle h2 a{
+    color: #7abd23;
+}
 
+#breakingNewsimg{
+    border-radius: 25px;
+}
+
+#breakingNewsimg img{
+    border-radius: 25px;
+}
+
+.image{
+    border-radius: 25px;
+}
+
+.news img{
+    border-radius: 25px;
+}
+.news a{
+    color: #7abd23;
+}
+
+.additional a{
+    color: #888;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.additional a:hover{
+    color: #7abd23;
+}
